@@ -56,6 +56,7 @@ public class MorseDecoder {
         for (int binIndex = 0; binIndex < totalBinCount; binIndex++) {
             // Get the right number of samples from the inputFile
             // Sum all the samples together and store them in the returnBuffer
+            if (sampleBuffer[binIndex] > )
         }
         return returnBuffer;
     }
